@@ -41,4 +41,17 @@ public class StudentController {
         repo.deleteById(id);
         return ResponseEntity.noContent().build();
     }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Student> update(@PathVariable Long id, @RequestBody Student data) {
+        return repo.findById(id)
+                .map(student -> {
+                    student.setFirstName(data.getFirstName());
+                    student.setLastName(data.getLastName());
+                    student.setGroupName(data.getGroupName());
+                    student.setStudentId(data.getStudentId());
+                    return ResponseEntity.ok(repo.save(student));
+                })
+                .orElse(ResponseEntity.notFound().build());
+    }
 }
