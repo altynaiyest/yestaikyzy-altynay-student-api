@@ -1,6 +1,6 @@
 # Yestaikyzy Altynay Student API
 Student: Altynay Yestaikyzy | Group: IT2-2309 | ID: 37590
-Status: CRUD API ready (Yestaikyzy Altynay)
+Status: documentation in progress (Yestaikyzy Altynay)
 DevOps Midterm project.
 
 ## Change log
