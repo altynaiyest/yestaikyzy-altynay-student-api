@@ -1,0 +1,47 @@
+name: yestaikyzy-altynay-student-api
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: yestaikyzy-altynay-db
+    environment:
+      POSTGRES_DB: ${DB_NAME:?DB_NAME is required}
+      POSTGRES_USER: ${DB_USER:?DB_USER is required}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?DB_PASSWORD is required}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - student-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: yestaikyzy-altynay-student-api:v1.0-yestaikyzy-altynay
+    container_name: yestaikyzy-altynay-app
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "8080:8080"
+    networks:
+      - student-net
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+
+networks:
+  student-net:
+    driver: bridge
