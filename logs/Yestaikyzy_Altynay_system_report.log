@@ -1,0 +1,96 @@
+==================================================
+ SYSTEM REPORT
+==================================================
+Student      : Altynay Yestaikyzy (Group IT2-2309, ID 37590)
+Date & time  : 2026-10-28 10:43:37 MSK
+Username     : altynai
+Hostname     : MacBook-Air-Altynai.local
+
+--- Operating system & kernel ---
+OS           : macOS 26.5.1 (build 25F80)
+Kernel       : Darwin 25.5.0 arm64
+
+--- CPU ---
+Model        : Apple M5
+Cores        : 10 physical / 10 logical
+
+--- Memory (vm_stat) ---
+Total        : 16384 MB
+Free         : 361 MB
+Active       : 6418 MB
+Inactive     : 6455 MB
+Wired        : 1682 MB
+Compressed   : 792 MB
+
+--- Disk usage (df -h) ---
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    12Gi   398Gi     3%    459k  4.2G    0%   /
+
+Available disk space on / : 398Gi
+
+--- End of report ---
+
+==================================================
+ SYSTEM REPORT
+==================================================
+Student      : Altynay Yestaikyzy (Group IT2-2309, ID 37590)
+Date & time  : 2026-10-28 10:45:55 MSK
+Username     : altynai
+Hostname     : MacBook-Air-Altynai.local
+
+--- Operating system & kernel ---
+OS           : macOS 26.5.1 (build 25F80)
+Kernel       : Darwin 25.5.0 arm64
+
+--- CPU ---
+Model        : Apple M5
+Cores        : 10 physical / 10 logical
+
+--- Memory (vm_stat) ---
+Total        : 16384 MB
+Free         : 394 MB
+Active       : 6361 MB
+Inactive     : 6326 MB
+Wired        : 1830 MB
+Compressed   : 791 MB
+
+--- Disk usage (df -h) ---
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    12Gi   398Gi     3%    459k  4.2G    0%   /
+
+Available disk space on / : 398Gi
+
+--- End of report ---
+
+==================================================
+ SYSTEM REPORT
+==================================================
+Student      : Altynay Yestaikyzy (Group IT2-2309, ID 37590)
+Date & time  : 2026-10-28 10:46:03 MSK
+Username     : altynai
+Hostname     : MacBook-Air-Altynai.local
+
+--- Operating system & kernel ---
+OS           : macOS 26.5.1 (build 25F80)
+Kernel       : Darwin 25.5.0 arm64
+
+--- CPU ---
+Model        : Apple M5
+Cores        : 10 physical / 10 logical
+
+--- Memory (vm_stat) ---
+Total        : 16384 MB
+Free         : 382 MB
+Active       : 6369 MB
+Inactive     : 6331 MB
+Wired        : 1823 MB
+Compressed   : 791 MB
+
+--- Disk usage (df -h) ---
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    12Gi   398Gi     3%    459k  4.2G    0%   /
+
+Available disk space on / : 398Gi
+
+--- End of report ---
+
