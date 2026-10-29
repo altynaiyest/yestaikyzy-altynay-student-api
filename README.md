@@ -10,3 +10,5 @@ DevOps Midterm project.
   that returns 404 for a nonexistent student.
 
 - CI: Jenkins pipeline Yestaikyzy_Altynay_Student_API triggers on new commits (Altynay Yestaikyzy).
+
+- CI: Jenkins pipeline Yestaikyzy_Altynay_Student_API triggers on new commits (Altynay Yestaikyzy).
