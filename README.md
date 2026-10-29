@@ -8,3 +8,5 @@ DevOps Midterm project.
 - Branch feature/yestaikyzy-altynay-crud: added Student entity, REST controller
   (create, read, delete) and the update operation PUT /api/students/{id}
   that returns 404 for a nonexistent student.
+
+- CI: Jenkins pipeline Yestaikyzy_Altynay_Student_API triggers on new commits (Altynay Yestaikyzy).
