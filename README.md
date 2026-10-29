@@ -12,3 +12,5 @@ DevOps Midterm project.
 - CI: Jenkins pipeline Yestaikyzy_Altynay_Student_API triggers on new commits (Altynay Yestaikyzy).
 
 - CI: Jenkins pipeline Yestaikyzy_Altynay_Student_API triggers on new commits (Altynay Yestaikyzy).
+
+- Poll SCM test: Thu Oct 29 18:54:21 MSK 2026
